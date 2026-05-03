@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Skincare</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* HEADER */
+.header {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* PRODUCT CARD */
+.product {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    margin: 10px 0 5px;
+}
+
+.product p {
+    color: #555;
+}
+
+/* BUTTON */
+.btn {
+    display: block;
+    text-align: center;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #1ebe5d;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Luxury Skincare</h1>
+    <p>Glow Starts Here ✨</p>
+</div>
+
+<div class="container">
+
+    <!-- PRODUCT 1 -->
+    <div class="product">
+        <img src="cleanser.jpg" alt="Gentle Cleanser">
+        <h2>Gentle Cleanser</h2>
+        <p>A refreshing cleanser that removes dirt and oil.</p>
+
+        <a class="btn"
+        href="https://wa.me/27720862865?text=Hi%20I%20want%20to%20order%20the%20Gentle%20Cleanser"
+        target="_blank">
+        Buy on WhatsApp
+        </a>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product">
+        <img src="moisturizer.jpg" alt="Hydrating Moisturizer">
+        <h2>Hydrating Moisturizer</h2>
+        <p>Locks in moisture for smooth, glowing skin.</p>
+
+        <a class="btn"
+        href="https://wa.me/27720862865?text=Hi%20I%20want%20to%20order%20the%20Hydrating%20Moisturizer"
+        target="_blank">
+        Buy on WhatsApp
+        </a>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="product">
+        <img src="serum.jpg" alt="Vitamin C Serum">
+        <h2>Vitamin C Serum</h2>
+        <p>Brightens skin and reduces dark spots.</p>
+
+        <a class="btn"
+        href="https://wa.me/27720862865?text=Hi%20I%20want%20to%20order%20the%20Vitamin%20C%20Serum"
+        target="_blank">
+        Buy on WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>Order directly on WhatsApp • Fast response</p>
+</div>
+
+</body>
+</html>
